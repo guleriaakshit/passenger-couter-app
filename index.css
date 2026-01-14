@@ -1,47 +1,56 @@
 body {
-    background-image: url("station.jpg");
-    background-size: cover;
-    font-family: Inter, Roboto, BlinkMacSystemFont,-apple-system, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 700;
-    text-align: center;
+  background-image: url("station.jpg");
+  background-size: cover;
+  font-family: Inter, Roboto, BlinkMacSystemFont, -apple-system, "Segoe UI",
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  text-align: center;
 }
 
 .container {
-    max-width: 80%;
-    margin: 0 auto;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.counter-card {
+  background-color: rgb(239, 239, 239);
+  border: 3px #222 solid;
+  width: 300px;
+  border-radius: 30px;
+  margin: 0 auto;
+  box-shadow: 2px;
 }
 
 h1 {
-    margin-top: 10px;
-    margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 button {
-    border: none;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-    font-weight: 700;
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 5px;
-    border-radius: 100px;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 700;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  border-radius: 100px;
 }
 
 #increment-btn {
-    background: coral;
-    color: black;
+  background: coral;
+  color: black;
 }
 
 #save-btn {
-    background: darkgreen;
-    color: f367f3;
+  background: darkgreen;
+  color: f367f3;
 }
-
